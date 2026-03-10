@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar.jsx';
 import About from './sections/About.jsx';
 import Agenda from './sections/Agenda.jsx';
+import Services from './sections/Services.jsx';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       </div>
       <About />
       <Agenda />
+      <Services />
     </>
   )
 }

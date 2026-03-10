@@ -3,7 +3,7 @@ import Title from "../components/Title.jsx";
 
 const About = () => {
     return (
-        <section className="flex gap-12 mx-auto justify-center">
+        <section className="flex gap-12 mx-auto justify-center mb-[250px]">
             <img src='/imgs/about.png' alt="About"/>
             <div>
                 <Title text="Sobre mim" />
