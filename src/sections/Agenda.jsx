@@ -4,7 +4,7 @@ import ICAL from "ical.js";
 
 const Agenda = () => {
     return (
-        <section className="bg-[#D7D5BE] py-[100px]">
+        <section id="agenda" className="bg-[#D7D5BE] py-[100px] px-[60px]">
             <Title text="Minha agenda"/>
             <div className="mt-[60px]">
                 <iframe

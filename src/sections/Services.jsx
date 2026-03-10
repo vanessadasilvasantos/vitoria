@@ -4,7 +4,7 @@ import HorizontalScrollCarousel from "../components/Carrousel.jsx";
 
 const Services = () => {
     return (
-        <section className="py-[100px]">
+        <section id="services" className="py-[100px] px-[60px]">
             <Title text="Meus serviços"/>
             <HorizontalScrollCarousel />
         </section>

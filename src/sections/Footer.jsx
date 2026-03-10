@@ -3,9 +3,9 @@ import Title from "../components/Title";
 
 const Footer = () => {
     return (
-    <section className="bg-[#27280C] pt-[100px] pb-[40px]">
+    <section className="bg-[#27280C] pt-[100px] pb-[40px] px-[60px]">
         <Title text="Contatos" color="#D7D5BE"/>
-        <div className="flex justify-around mt-[90px]">
+        <div className="flex justify-between mt-[90px]">
             <div>
                 <h2 className="text-[32px] text-[#F9F9F8]">Email</h2>
                 <p className="text-[24px] text-[#D7D5BE] semibold underline">contato@exemplo.com</p>
