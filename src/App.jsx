@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className='flex h-[90vh] justify-center items-center'>
+      <div id='home' className='flex h-[90vh] max-lg:h-[80vh] max-sm:h-[60vh] justify-center items-center'>
         <img src='/imgs/homeImg.png' alt="Home" className='mx-auto'/>
       </div>
       <About />
