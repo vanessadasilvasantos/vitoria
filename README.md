@@ -1,16 +1,59 @@
-# React + Vite
+# 💅 Landing Page - Vitória Kunzenkorff
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma landing page desenvolvida para uma nail designer, com foco em apresentar serviços de forma simples, elegante e profissional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- Tailwind CSS
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 Sobre o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A landing page foi criada com o objetivo de valorizar a identidade visual da profissional, trazendo um layout clean e moderno.
+
+O projeto apresenta:
+- Seção inicial com destaque visual (hero)
+- Informações sobre a profissional
+- Serviços oferecidos
+- Navegação simples e intuitiva
+- Botão de agendamento
+
+---
+
+## 🎨 Design
+
+O layout segue uma proposta minimalista, com tipografia elegante e foco na apresentação visual da marca, transmitindo leveza e sofisticação.
+
+---
+
+## 📸 Preview
+
+<img width="1853" height="1086" alt="Captura de tela de 2026-04-25 16-02-46" src="https://github.com/user-attachments/assets/c4ebed44-0701-40fd-8d49-b0406059c953" />
+
+
+---
+
+## 🔗 Acesse o projeto
+
+https://vitoria-eight.vercel.app/
+---
+
+## 🛠️ Como rodar o projeto
+
+```bash
+# clonar repositório
+git clone https://github.com/SEU_USER/SEU_REPO.git
+
+# entrar na pasta
+cd NOME_DO_PROJETO
+
+# instalar dependências
+npm install
+
+# rodar projeto
+npm run dev
