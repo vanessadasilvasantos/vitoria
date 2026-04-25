@@ -8,15 +8,15 @@ const Footer = () => {
         <div className="flex justify-between mt-[90px] max-lg:mt-[50px] max-sm:flex-col max-sm:gap-[30px] max-sm:grid max-sm:grid-cols-2 max-sm:items-center">
             <div className="max-sm:flex max-sm:flex-col">
                 <h2 className="text-[32px] text-[#F9F9F8] max-xl:text-2xl max-lg:text-xl max-sm:text-lg">Email</h2>
-                <p className="text-[24px] text-[#D7D5BE] semibold underline max-xl:text-lg max-lg:text-base max-sm:text-sm">contato@exemplo.com</p>
+                <a href="mailto:vinessacla@gmail.com" className="text-[24px] text-[#D7D5BE] semibold underline max-xl:text-lg max-lg:text-base max-sm:text-sm">vinessacla@gmail.com</a>
             </div>
             <div className="max-sm:flex max-sm:flex-col">
                 <h2 className="text-[32px] text-[#F9F9F8] max-xl:text-2xl max-lg:text-xl max-sm:text-lg">Instagram</h2>
-                <p className="text-[24px] text-[#D7D5BE] semibold max-xl:text-lg max-lg:text-base max-sm:text-sm">@exemplo</p>
+                <a href="https://www.instagram.com/vitoriakunzendorffnails/" target="_blank" rel="noopener noreferrer" className="text-[24px] text-[#D7D5BE] semibold max-xl:text-lg max-lg:text-base max-sm:text-sm">@vitoriakunzendorffnails</a>
             </div>
             <div className="max-sm:flex max-sm:flex-col">
                 <h2 className="text-[32px] text-[#F9F9F8] max-xl:text-2xl max-lg:text-xl max-sm:text-lg">Whatsapp</h2>
-                <p className="text-[24px] text-[#D7D5BE] semibold max-xl:text-lg max-lg:text-base max-sm:text-sm">+55 11 99999-9999</p>
+                <p className="text-[24px] text-[#D7D5BE] semibold max-xl:text-lg max-lg:text-base max-sm:text-sm">+55 11 97747-4133</p>
             </div>
         </div>
         <p className="text-[16px] text-[#979974] mt-[165px] max-sm:mt-[60px] max-lg:mt-[100px] text-center">Vitoria Kunzendorff Nail Studio © Todos os direitos reservados.</p>

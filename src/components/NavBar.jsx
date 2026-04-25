@@ -20,7 +20,7 @@ const NavBar = () => {
                     className="cursor-pointer border-1 transition duration-300 border-transparent hover:border-[#27280C] py-[1px] px-2 rounded-3xl hover:text-[#27280C] max-lg:hidden"
                     onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })}
                 >Meus serviços</button>
-                <Button text="Agende seu horário" />
+                <Button text="Agende seu horário" link="https://wa.me/5511977474133"/>
             </div>
         </nav>
     )
